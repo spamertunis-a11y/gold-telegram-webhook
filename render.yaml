@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: gold-telegram-webhook
+    env: python
+    startCommand: python app.py
